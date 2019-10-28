@@ -1,3 +1,42 @@
-/*
- * Estilos de tu proyecto
- */
+/*Estilos de tu proyecto*/
+
+.hero{
+     background-image: url(../assets/images/hero.gif);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center ;
+
+} 
+.logoA{
+    width: 62px;
+  margin: 32px 0px 14px 72px;
+}   
+.logo{
+    width: 100%;
+}
+.explore1{
+    margin: 20px 0px 100px 1390px;   
+}
+.solicitudA{
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px 0px 100px 1090px;
+   
+   
+}   
+
+.solicitud{
+    width: 80%;
+    margin: 70px 0px 100px 300px;
+   
+}
+.phoneA{
+    width: 10%;
+}
+
+.phone{
+    width: 100%;
+}
+
+   
+
