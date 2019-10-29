@@ -1,55 +1,59 @@
 /*Estilos de tu proyecto*/
- * {
-     margin: 0;
-     padding: 0;
- }
+* {
+    margin: 0;
+    padding: 0;
+}
 .hero{
-     background-image: url(../assets/images/hero.gif);
-     background-repeat: no-repeat;
-     background-size:cover;
-     background-position: center ;
-     width: 100%;
-     display: flex;
-     justify-content:center;
-     align-items: center;
-     flex-direction: column;
+    background-image: url(../assets/images/hero.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center ;
+    width: 100%;
 }
 .logo-encabezado{
-    width: 100%;
-    padding:40px;
-    height: 20px;
-    display: flex;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 0;
+}    
+.lista-menu a {
+   color: white;
+   text-decoration: none;
+   margin: 10px;
+   cursor: pointer;
 }
-.lista-menu1{
-    display: flex;
-
-}
-.lista-menu2{
-    display: flex;
-    flex-direction: row-reverse;
+.lista-menu button {
+   background: transparent;
+   border: 1px solid white;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
 }
 .logo{
-    width: 10%;
+   width: 100px;
 }
 .phone{
-    width: 20%;
+   width: 500px;
 } 
-
-.solicitud{
-    background-color: white;
-    border: 1px solid black;
+.solicitud {
+   display: flex;
+   justify-content: flex-end;
 }
-/* .logoA{
-    width: 62px;
-    margin: 32px 0px 14px 72px;
- 
-.boton-login{
-    margin: 0px 11px 0px 27px;
-    font-size: 18px;
+.formulario {
+   background-color: white;
+   padding: 40px;
+   width: 100%;
+   max-width: 40%;
 }
-
-
-*/
-
-   
-
+.caracteristicas {
+   background-image: linear-gradient(#76278F, #2B1E66);
+   display: flex;
+   color: white;
+   padding: 50px;
+}
+.video {
+   display: flex;
+   width:100%;
+} 
+  
