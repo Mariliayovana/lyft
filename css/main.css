@@ -1,42 +1,55 @@
 /*Estilos de tu proyecto*/
-
+ * {
+     margin: 0;
+     padding: 0;
+ }
 .hero{
      background-image: url(../assets/images/hero.gif);
      background-repeat: no-repeat;
      background-size:cover;
      background-position: center ;
-
-} 
-.logoA{
-    width: 62px;
-  margin: 32px 0px 14px 72px;
-}   
-.logo{
+     width: 100%;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;
+}
+.logo-encabezado{
     width: 100%;
+    padding:40px;
+    height: 20px;
+    display: flex;
 }
-.explore1{
-    margin: 20px 0px 100px 1390px;   
-}
-.solicitudA{
-    background-color: white;
-    border: 1px solid black;
-    margin: 20px 0px 100px 1090px;
-   
-   
-}   
+.lista-menu1{
+    display: flex;
 
-.solicitud{
-    width: 80%;
-    margin: 70px 0px 100px 300px;
-   
 }
-.phoneA{
+.lista-menu2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo{
     width: 10%;
 }
-
 .phone{
-    width: 100%;
+    width: 20%;
+} 
+
+.solicitud{
+    background-color: white;
+    border: 1px solid black;
 }
+/* .logoA{
+    width: 62px;
+    margin: 32px 0px 14px 72px;
+ 
+.boton-login{
+    margin: 0px 11px 0px 27px;
+    font-size: 18px;
+}
+
+
+*/
 
    
 
