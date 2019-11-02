@@ -2,6 +2,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
 }
 .hero{
     background-image: url(../assets/images/hero.gif);
@@ -9,6 +11,7 @@
     background-size:cover;
     background-position: center ;
     width: 100%;
+    height: 70vh;
 }
 .logo-encabezado{
    width: 100%;
@@ -29,31 +32,132 @@
    color: white;
    padding: 10px 20px;
    border-radius: 5px;
+   margin-right: 290px;
+   
 }
 .logo{
    width: 100px;
+   margin-top: 25px;
+   margin-left: 90px;
 }
 .phone{
-   width: 500px;
+   width: 489px;
 } 
 .solicitud {
    display: flex;
    justify-content: flex-end;
+   margin-left: 620px;
 }
 .formulario {
+   display: flex;
    background-color: white;
-   padding: 40px;
+   padding: 50px;
    width: 100%;
    max-width: 40%;
+   flex-direction: column;
+}
+.formulario h1{
+   font-size: 35px;
+   color: #2B1E66;
+   
+}
+.formulario h5{
+   font-size: 15px;
+   color: #2B1E66;
+   margin-top: 12px; 
+}
+.formulario a{
+   text-align: center;
+   margin-left: 10px;
+   text-decoration: underline;
+   color: gray;
+}
+
+.formulario input{
+   border: none;
+   border-bottom: 1px solid #2B1E66;
+   padding: 5px 0;
+   outline: none;
+   margin-top: 20px;
+}
+.formulario button{
+   width: 160px;
+   background:#FF00BF;
+   border: 1px solid #FF00BF;
+   color: white;
+   border-radius: 5px;
+   padding: 13px 20px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+.formulario p{
+   color: gray;
+   font-size: 10px;
+   margin-top: 10px;  
 }
 .caracteristicas {
    background-image: linear-gradient(#76278F, #2B1E66);
    display: flex;
    color: white;
    padding: 50px;
+   justify-content: space-around;
+   align-items: center;
+}
+.phoneA{
+   display: flex;
+   flex-direction: column;
+}
+.caracteristica h2 {
+   margin-bottom: 10px;
+}
+.caracteristica p {
+   margin-bottom: 50px;
 }
 .video {
    display: flex;
    width:100%;
-} 
-  
+   justify-content: center;
+}
+.watch-contenedor {
+   padding-top: 40px;
+   padding-left: 40px;
+}
+.video-menu {
+   width: 40%;
+}
+.video-contenedor {
+   width: 60%;
+}
+.youtube {
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 56.2%;
+ }
+
+ .youtube iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
+.pie-pagina{
+   display: flex;
+   width: 100%;
+   background-color: #333447;
+   color: white;
+   align-items: flex-end;
+   padding: 20px;
+}
+.pie-menu{
+   display: flex;
+   width: 100%;
+ 
+}
+.pie-menu a {
+   color: white;
+display: flex;
+
+
+}
