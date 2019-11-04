@@ -167,6 +167,9 @@
    text-decoration: none;  
    padding-top: 30px;           
 }
+.pie-menu a:hover {
+   color: #FF00BF;
+}
 .pie-logos{
    display: flex;
    flex-direction: column;
